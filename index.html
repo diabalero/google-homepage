@@ -7,21 +7,34 @@
     .navbar {
         list-style-type: none;
         margin: 0;
-        padding: 0;
     }
     .navbar li {
         display: inline;
+        padding: 4px;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        font-size: 12px;
+    }
+    .footer li {
+        display: inline;
+        padding: 4px;
     }
 </style>
 <body>
-    <div id="navbar" class="navbar">
+    <div class="navbar">
         <ul>
-            <li style="float: left">About</li>
-            <li style="float: left">Store</li>
-            <li style="float: right">Gmail</li>
-            <li style="float: right">Images</li>
-            <li style="float: right"></li>
-            <li style="float: right">Sign In</li>
+            <li style="float: left">About  </li>
+            <li style="float: left">Store  </li>
+            <li style="float: right">Gmail  </li>
+            <li style="float: right">Images  </li>
+            <li style="float: right"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJYeHJHKgCvHQr48Fuww-iUwS-m3vgNxHbGsfUIomEKLUZlhZN"></li>
+            <li style="float: right"><button>Sign In</button></li>
         </ul>
     </div>
     <div id="logo" class="aligncenter">
@@ -36,3 +49,15 @@
         </form>
     </div>
 </body>
+<footer>
+    <div class="footer">
+        <ul>
+            <li style="float: left">Advertising</li>
+            <li style="float: left">Business</li>
+            <li style="float: left">How Search Works</li>
+            <li style="float: right">Privacy</li>
+            <li style="float: right">Terms</li>
+            <li style="float: right">Settings</li>
+        </ul>
+    </div>
+</footer>
